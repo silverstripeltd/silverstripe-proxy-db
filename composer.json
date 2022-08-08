@@ -16,7 +16,12 @@
     "require": {
         "silverstripe/framework": "^4@dev",
         "silverstripe/vendor-plugin": "^1.0",
-        "tractorcow/classproxy": "^1"
+        "tractorcow/classproxy": "dev-feature/php8"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/silverstripeltd/classproxy",
+        "private": "true"
     },
     "autoload": {
         "psr-4": {
